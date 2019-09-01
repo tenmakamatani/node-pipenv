@@ -1,6 +1,6 @@
 from janome.tokenizer import Tokenizer
 import sys
 
-text = '私の名前はてんまです'
+text = sys.argv[1]
 splited_text = Tokenizer().tokenize(text, wakati=True)
 print(splited_text)
